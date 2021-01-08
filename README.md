@@ -1,4 +1,4 @@
-# Markdown_tutorial
+# Markdown_cheatsheet
 This is a repo that contains the content for a jekyll template (docksy). I put text files here to store them in case of exporting the files to a new jekyll template.
 
 ## What is Markdown?
@@ -54,20 +54,32 @@ Sub-heading
 Sub-heading
 -----------
 ```
-Text attributes _italic_, **bold**, `monospace`.
+Text attributes 
+_italic_, *italic*
+**bold** 
+`monospace`
+```
+
+Text attributes 
+_italic_, *italic* 
+**bold**, __bold__
+`monospace`.
 
 ```
-Text attributes _italic_, **bold**, `monospace`.
+Escape character: "\"
+\*italic\* won't be rendered  
+```
+\*italic\* won't be rendered  
 
 
-
+```
+Horizontal Rule:
+---
+___
 ```
 Horizontal rule:
 ---
-```
-Horizontal rule:
----
-
+___
 
 ```
 Strikethrough:
@@ -80,6 +92,8 @@ Strikethrough:
 Bullet list:
 
 * apples
+  * nested item 1
+  * nested item 2
 * oranges
 * pears
 
@@ -92,11 +106,13 @@ Bullet list:
 - pears
 ```
 * apples
+  *nested item 1
+  *nested item 2
 * oranges
 * pears
 
 
-```
+``` 
 Numbered list:
 1. leather
 2. rinse
@@ -105,29 +121,66 @@ Numbered list:
 
 
 ```
-Links:
+Links and images:
 An [example](http://example.com).
+An [example](http://example.com "title on hover").
 ![Image](Icon-pictures.png "icon")
 <p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 ```
-Links:
-An [example](http://example.com).
+Links and images:
+An [example](http://example.com). 
+An [example](http://example.com "title on hover").
 
 ![Image](Icon-pictures.png "icon")
 <p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 
 
+
+Inline Code Block:
+
+
+`<p> This is a paragraph </p>`
+
+
+
+Code Blocks:
+```
+npm install
+npm start
 ```
 
+```javascript
+function add(num1, num2) {
+  return num1 + num2;
+}
+```
+
+```python
+def add(num1, num2): 
+  return num1 + num2
+}
+
 ```
 
 
-```
 
 ```
+Tables
 
+|  name | email            |  
+|------:|------------------|
+| tom   | tom@domain.com   |   
+| jenny | jenny@domain.com |   
+|       |                  |  
 
 ```
+|  name | email            |  
+|------:|------------------|
+| tom   | tom@domain.com   |   
+| jenny | jenny@domain.com |   
+|       |                  | 
+
+
 
 ```
 
