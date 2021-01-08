@@ -108,10 +108,13 @@ Numbered list:
 Links:
 An [example](http://example.com).
 ![Image](Icon-pictures.png "icon")
+<p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 ```
 Links:
 An [example](http://example.com).
+
 ![Image](Icon-pictures.png "icon")
+<p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 
 
 ```
