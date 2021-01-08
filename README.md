@@ -2,7 +2,7 @@
 This is a repo that contains the content for a jekyll template (docksy). I put text files here to store them in case of exporting the files to a new jekyll template.
 
 ## What is Markdown?
----
+
 
 Markdown is a markup language that consists of text-encoded symbols...
 
@@ -23,7 +23,7 @@ Test for Markdown syntax
 #### This is an h4 tag
 ##### This is an h5 tag
 ###### This is an h6 tag
-
+---
 
 ```
 > This is a quoteblock
@@ -37,7 +37,7 @@ Test for Markdown syntax
 > This is the second paragraph in the quoteblock.
 >
 > ## This is H2 in the blockquote
-
+---
 
 ```
 Heading
@@ -45,7 +45,7 @@ Heading
 ```
 Heading
 =======
-
+---
 
 ```
 Sub-heading
@@ -53,6 +53,8 @@ Sub-heading
 ```
 Sub-heading
 -----------
+---
+
 ```
 Text attributes 
 _italic_, *italic*
@@ -65,12 +67,15 @@ _italic_, *italic*
 **bold**, __bold__
 `monospace`.
 
+---
+
 ```
 Escape character: "\"
 \*italic\* won't be rendered  
 ```
 \*italic\* won't be rendered  
 
+---
 
 ```
 Horizontal Rule:
@@ -81,12 +86,16 @@ Horizontal rule:
 ---
 ___
 
+---
+
 ```
 Strikethrough:
 ~~strikethrough~~
 ```
 Strikethrough:
 ~~strikethrough~~
+
+---
 
 ```
 Bullet list:
@@ -111,6 +120,7 @@ Bullet list:
 * oranges
 * pears
 
+---
 
 ``` 
 Numbered list:
@@ -118,7 +128,12 @@ Numbered list:
 2. rinse
 3. repeat
 ```
+Numbered list:
+1. leather
+2. rinse
+3. repeat
 
+---
 
 ```
 Links and images:
