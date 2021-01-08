@@ -152,19 +152,21 @@ An [example](http://example.com "title on hover").
 ```
 Links and images:
 An [example](http://example.com). 
+
 An [example](http://example.com "title on hover").
 
 ![Image](Icon-pictures.png "icon")
 <p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 
-
+---
 
 Inline Code Block:
 
+To create an inline code blockcode, you have to use a backtick ` at the beginning of the code and at the end of it. 
 
 `<p> This is a paragraph </p>`
 
-
+---
 
 Code Blocks:
 ```
