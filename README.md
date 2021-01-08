@@ -16,7 +16,6 @@ Test for Markdown syntax
 ##### This is an <h5> tag
 ###### This is an <h6> tag
 ```
-The text above looks like this:
 
 # This is an h1 tag
 ## This is an h2 tag
@@ -25,12 +24,13 @@ The text above looks like this:
 ##### This is an h5 tag
 ###### This is an h6 tag
 
+
 ```
-> To jest blok cytatu.
+> This is a quoteblock
 >
-> To jest drugi akapit w bloku cytatu.
+> This is the second paragraph in the quoteblock.
 >
-> ## To jest H2 w bloku cytatu
+> ## ## This is H2 in the blockquote
 ```
 > This is a quoteblock
 >
@@ -38,12 +38,15 @@ The text above looks like this:
 >
 > ## This is H2 in the blockquote
 
+
 ```
 Heading
 =======
 ```
 Heading
 =======
+
+
 ```
 Sub-heading
 -----------
@@ -51,12 +54,90 @@ Sub-heading
 Sub-heading
 -----------
 ```
+Text attributes _italic_, **bold**, `monospace`.
+
+```
+Text attributes _italic_, **bold**, `monospace`.
+
+
+
+```
+Horizontal rule:
+---
+```
+Horizontal rule:
+---
+
+
+```
+Strikethrough:
+~~strikethrough~~
+```
+Strikethrough:
+~~strikethrough~~
+
+```
+Bullet list:
+
+* apples
+* oranges
+* pears
+
++ apples
++ oranges
++ pears
+
+- apples
+- oranges
+- pears
+```
+* apples
+* oranges
+* pears
+
+
+```
+Numbered list:
+1. leather
+2. rinse
+3. repeat
+```
+
+
+```
+Links:
+An [example](http://example.com).
+![Image](Icon-pictures.png "icon")
+```
+Links:
+An [example](http://example.com).
+![Image](Icon-pictures.png "icon")
+
 
 ```
 
 ```
 
+
 ```
+
+```
+
+
+```
+
+```
+
+
+```
+
+```
+
+
+```
+
+```
+
 
 ```
 
