@@ -9,20 +9,20 @@ Markdown is a markup language that consists of text-encoded symbols...
 Test for Markdown syntax
 ##Paragraphs, head titles, quotation blocks
 ```
-# This is an <h1> tag
-## This is an <h2> tag
-### This is an <h3> tag
-#### This is an <h4> tag
-##### This is an <h5> tag
-###### This is an <h6> tag
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 ```
 
-# This is an h1 tag
-## This is an h2 tag
-### This is an h3 tag
-#### This is an h4 tag
-##### This is an h5 tag
-###### This is an h6 tag
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 ---
 
 ```
