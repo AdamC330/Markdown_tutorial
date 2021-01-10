@@ -29,12 +29,14 @@ Test for Markdown syntax
 > This is a quoteblock
 >
 > This is the second paragraph in the quoteblock.
+>>indentation
 >
 > ## ## This is H2 in the blockquote
 ```
 > This is a quoteblock
 >
 > This is the second paragraph in the quoteblock.
+>>indentation
 >
 > ## This is H2 in the blockquote
 ---
@@ -146,12 +148,27 @@ Numbered list:
 ---
 
 ```
+- [ ] Item one
+- [ ] Item two
+- [x] Completed item
+```
+- [ ] Item one
+- [ ] Item two
+- [x] Completed item
+
+---
+
+```
 Links and images:
 An [example](http://example.com).
 An [example](http://example.com "title on hover").
 ![Image](Icon-pictures.png "icon")
 <p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 
+Inline image with link
+[![file_name](../../images/icon-76x76.png)](https://github.com)
+Inline image
+![file_name](../../images/icon-76x76.png =50x76 "hover text")
 ![Image][1]
 ⋮
 [1]: http://url/b.jpg
@@ -168,7 +185,7 @@ An [example](http://example.com "title on hover").
 
 Inline Code Block:
 
-To create an inline code blockcode, you have to use a backtick \` at the beginning of the text and at the end of it.
+To create an inline code block, you have to use a backtick \` at the beginning of the text and at the end of it.
 
 `Inline code` with backticks
 
@@ -229,6 +246,14 @@ def add(num1, num2):
   return num1 + num2
 }
 
+``` go
+package main
+import "fmt"
+func main() {
+    fmt.Println("Hello, 世界")
+}
+```
+
 ```
 ---
 
@@ -252,10 +277,25 @@ Tables
 
 
 ```
-
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| Left column 1 | this text       |  $100 |
+| Left column 2 | is              |   $10 |
+| Left column 3 | centered        |    $1 |
 
 ```
 
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| Left column 1 | this text       |  $100 |
+| Left column 2 | is              |   $10 |
+| Left column 3 | centered        |    $1 |
+
+```
+Math Formulas
+
+```latex
+X_k = \sum_{n=0}^{2N-1} x_n \cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{N}{2}\right) \left(k+\frac{1}{2}\right) \right]
 ```
 
 
