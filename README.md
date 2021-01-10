@@ -40,10 +40,10 @@ Test for Markdown syntax
 ---
 
 ```
-Heading
+Heading 1
 =======
 ```
-Heading
+Heading 2
 =======
 ---
 
@@ -53,10 +53,19 @@ Sub-heading
 ```
 Sub-heading
 -----------
+---
+
+```
+Horizontal Rule:
+---
+___
+```
+Horizontal rule:
 ---
 
 ```
 Text attributes
+
 Emphasis, aka italics, with *asterisks* or _underscores_.
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
@@ -65,6 +74,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 ```
 
 Text attributes
+
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
@@ -83,14 +93,6 @@ Escape character: "\"
 ```
 \*italic\* won't be rendered  
 
----
-
-```
-Horizontal Rule:
----
-___
-```
-Horizontal rule:
 ---
 ___
 
@@ -149,6 +151,10 @@ An [example](http://example.com).
 An [example](http://example.com "title on hover").
 ![Image](Icon-pictures.png "icon")
 <p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
+
+![Image][1]
+⋮
+[1]: http://url/b.jpg
 ```
 Links and images:
 An [example](http://example.com).
@@ -162,7 +168,9 @@ An [example](http://example.com "title on hover").
 
 Inline Code Block:
 
-To create an inline code blockcode, you have to use a backtick ` at the beginning of the code and at the end of it.
+To create an inline code blockcode, you have to use a backtick \` at the beginning of the text and at the end of it.
+
+`Inline code` with backticks
 
 `<p> This is a paragraph </p>`
 
@@ -172,7 +180,24 @@ Code Blocks:
 
 If you want to write a code block, you have to enclose the code with three backticks \` at the beginning of the code and at the end of it.
 
-\```
+```
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+
+····# code block
+····print '3 backticks or'
+····print 'indent 4 spaces'
+```
+
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+
+    # code block
+    print '3 backticks or'
+    print 'indent 4 spaces'
+
 your code here \``\`
 ```
 npm install
@@ -180,7 +205,7 @@ npm start
 ```
 ---
 
-Or you can specify a programming language in which the code is written after typing the initial three backtiscks i.e. 
+Or you can specify a programming language in which the code is written after typing the initial three backticks i.e.
 
 "```javascript
 function add(num1, num2) {
