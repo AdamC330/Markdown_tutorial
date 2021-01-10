@@ -92,9 +92,23 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 ```
 Escape character: "\"
 \*italic\* won't be rendered  
+
+I have eaten\
+the plums\
+that were in\
+the icebox
+
+1986\. What a great season. Arguably the finest season in the history of the franchise.
 ```
 \*italic\* won't be rendered  
 
+I have eaten\
+the plums\
+that were in\
+the icebox
+
+
+1986\. What a great season. Arguably the finest season in the history of the franchise.
 ---
 ___
 
@@ -172,6 +186,15 @@ Inline image
 ![Image][1]
 ⋮
 [1]: http://url/b.jpg
+
+[Hurricane][1] Erika was the strongest and longest-lasting tropical cyclone in the 1997 Atlantic [hurricane][1] season.
+
+[1]:https://goo.gl/YEEHP0
+
+![](https://commonmark.org/help/images/favicon.png)
+![Logo][1]
+
+[1]: https://commonmark.org/help/images/favicon.png "Creative Commons licensed"
 ```
 Links and images:
 An [example](http://example.com).
@@ -181,6 +204,15 @@ An [example](http://example.com "title on hover").
 ![Image](Icon-pictures.png "icon")
 <p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 
+[Hurricane][1] Erika was the strongest and longest-lasting tropical cyclone in the 1997 Atlantic [hurricane][1] season.
+
+[1]:https://goo.gl/YEEHP0
+
+![](https://commonmark.org/help/images/favicon.png)
+
+![Logo][1]
+
+[1]: https://commonmark.org/help/images/favicon.png "Creative Commons licensed"
 ---
 
 Inline Code Block:
@@ -190,7 +222,8 @@ To create an inline code block, you have to use a backtick \` at the beginning o
 `Inline code` with backticks
 
 `<p> This is a paragraph </p>`
-
+When `x = 3`, that means `x + 2 = 5`
+    When `x = 3`, that means `x + 2 = 5`
 ---
 
 Code Blocks:
@@ -300,9 +333,41 @@ X_k = \sum_{n=0}^{2N-1} x_n \cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{N
 
 
 ```
+1. Ingredients
 
+    - spaghetti
+    - marinara sauce
+    - salt
+
+2. Cooking
+
+   Bring water to boil, add a pinch of salt and spaghetti. Cook until pasta is **tender**.
+
+3. Serve
+
+   Drain the pasta on a plate. Add heated sauce.
+
+   > No man is lonely eating spaghetti; it requires so much attention.
+
+   Bon appetit!
 ```
+1. Ingredients
 
+    - spaghetti
+    - marinara sauce
+    - salt
+
+2. Cooking
+
+   Bring water to boil, add a pinch of salt and spaghetti. Cook until pasta is **tender**.
+
+3. Serve
+
+   Drain the pasta on a plate. Add heated sauce.
+
+   > No man is lonely eating spaghetti; it requires so much attention.
+
+   Bon appetit!
 
 ```
 
